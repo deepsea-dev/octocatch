@@ -42,6 +42,17 @@ float getDistance() {
   return distance;
 }
 
+void flashColor(uint32_t c, int n) {
+  for (int i = 0; i < n; i++) {
+    strip.fill(c, 0, 20);
+    strip.show();
+    delay(100);
+    strip.fill(0, 0, 20);
+    strip.show(); 
+  }
+
+}
+
 void loop()
 {
   if (lastMarbleDistance == 0) {
@@ -56,24 +67,21 @@ void loop()
   float currentDistance = getDistance();
   if (currentDistance + 2 < lastMarbleDistance) {
     missed++;
+    digitalWrite(PEIZO_PIN, HIGH);
+    flashColor(red, 1);
+    delay(100);
+    digitalWrite(PEIZO_PIN, LOW);
   }
 
   if (missed == failCount && inProgress) {
   	digitalWrite(MASTER_START_PIN, LOW);
     inProgress = false;
     digitalWrite(PEIZO_PIN, HIGH);
-    strip.fill(red, 0, 20);
-    strip.show();
     delay(100);
-    strip.fill(0, 0, 20);
-    strip.show();
     digitalWrite(PEIZO_PIN, LOW);
-    delay(100);
-    strip.fill(red, 0, 20);
-    strip.show();
-    delay(100);
-    strip.fill(0, 0, 20);
-    strip.show();
+
+    flashColor(red, 4);
+   
     missed = 0;
   }
   
