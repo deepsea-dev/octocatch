@@ -10,21 +10,55 @@ void setup() {
   
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
-  // Print a message to the LCD.
-  lcd.print("Current Score");
+  
+  showStart();
   
   Serial.begin(9600);
 }
 
+void showStart() {
+  lcd.setCursor(0, 0);
+  lcd.print("OctoCatch       ");
+  lcd.setCursor(0, 1);
+  lcd.print("Start game?     ");
+}
+
+int startTime = 0;
+int counting = LOW;
 void loop() {
 
-  lcd.setCursor(0, 1);
 
   int startCount = digitalRead(8);
   Serial.println(startCount);
-  if (startCount == HIGH) {
-  	lcd.print(millis());  
+  if (startCount == HIGH && counting == LOW) {
+	counting = HIGH;
+    
+    startTime = millis();
+    
+    lcd.setCursor(0, 0);
+    lcd.print("Current Score   ");
+
+    lcd.setCursor(0, 1);
+    
+    lcd.print("                ");
   }
+  else if (startCount == HIGH && counting == HIGH) {
+    lcd.setCursor(0, 1);
+    lcd.print("                ");
+    lcd.setCursor(0, 1);
+    lcd.print(millis() - startTime);  
+  }
+  else if (startCount == LOW && counting == HIGH) {
+  	// Player has failed, gameover
+    lcd.setCursor(0, 0);
+    lcd.print("Gameover - Score");
+    counting = LOW;
+    
+    startTime = millis();
+  } else if (startTime > 3000) {
+   	showStart(); 
+  }
+  
   
   delay(100);
   
