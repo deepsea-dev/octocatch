@@ -65,7 +65,7 @@ void loop()
   }
   
   float currentDistance = getDistance();
-  if (currentDistance + 2 < lastMarbleDistance) {
+  if (currentDistance + 2 < lastMarbleDistance && inProgress) {
     missed++;
     digitalWrite(PEIZO_PIN, HIGH);
     flashColor(red, 1);
