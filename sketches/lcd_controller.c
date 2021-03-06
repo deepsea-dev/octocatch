@@ -55,7 +55,7 @@ void loop() {
     counting = LOW;
     
     startTime = millis();
-  } else if (startTime > 3000) {
+  } else if (millis() - startTime > 3000) {
    	showStart(); 
   }
   
