@@ -658,6 +658,56 @@
   <property name="kdenlive:audio_max">1</property>
   <property name="global_feed">1</property>
  </producer>
+ <producer id="producer25" in="00:00:00.000" out="00:01:22.183">
+  <property name="length">4932</property>
+  <property name="eof">pause</property>
+  <property name="resource">audio-recordings/demo/986416484.flac/1-BWBellairs_0322.flac</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">flac</property>
+  <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">30</property>
+  <property name="kdenlive:file_size">1130456</property>
+  <property name="kdenlive:file_hash">d317b47c57c8f090c9462c4a90873b27</property>
+  <property name="kdenlive:audio_max">4</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer id="producer26" in="00:00:00.000" out="00:01:22.200">
+  <property name="length">4933</property>
+  <property name="eof">pause</property>
+  <property name="resource">audio-recordings/demo/986416484.flac/2-harry48225_0075.flac</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">flac</property>
+  <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">31</property>
+  <property name="kdenlive:file_size">609307</property>
+  <property name="kdenlive:file_hash">ba0e2c09b3eb78b59fad018e89017b39</property>
+  <property name="kdenlive:audio_max">1</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main_bin">
   <property name="kdenlive:docproperties.activeTrack">4</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
@@ -671,7 +721,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
   <property name="kdenlive:docproperties.kdenliveversion">20.12.2</property>
-  <property name="kdenlive:docproperties.position">11138</property>
+  <property name="kdenlive:docproperties.position">73</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">/home/harry/.local/share/kdenlive/profiles/customprofile0</property>
@@ -680,142 +730,17 @@
   <property name="kdenlive:docproperties.proxyimagesize">800</property>
   <property name="kdenlive:docproperties.proxyminsize">1000</property>
   <property name="kdenlive:docproperties.proxyparams"/>
-  <property name="kdenlive:docproperties.scrollPos">1031</property>
+  <property name="kdenlive:docproperties.scrollPos">0</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.version">1</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
-  <property name="kdenlive:docproperties.videoTarget">4</property>
+  <property name="kdenlive:docproperties.videoTarget">-1</property>
   <property name="kdenlive:docproperties.zonein">3662</property>
   <property name="kdenlive:docproperties.zoneout">3663</property>
-  <property name="kdenlive:docproperties.zoom">11</property>
+  <property name="kdenlive:docproperties.zoom">14</property>
   <property name="kdenlive:expandedFolders"/>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:docproperties.groups">[
-    {
-        "children": [
-            {
-                "children": [
-                    {
-                        "data": "2:12742",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    },
-                    {
-                        "data": "5:12742",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    }
-                ],
-                "type": "AVSplit"
-            },
-            {
-                "children": [
-                    {
-                        "data": "2:13504",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    },
-                    {
-                        "data": "5:13504",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    }
-                ],
-                "type": "AVSplit"
-            },
-            {
-                "children": [
-                    {
-                        "data": "3:12227",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    },
-                    {
-                        "data": "4:12227",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    }
-                ],
-                "type": "AVSplit"
-            },
-            {
-                "children": [
-                    {
-                        "data": "4:12544",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    },
-                    {
-                        "data": "3:12544",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    }
-                ],
-                "type": "AVSplit"
-            },
-            {
-                "children": [
-                    {
-                        "data": "3:13342",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    },
-                    {
-                        "data": "4:13342",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    }
-                ],
-                "type": "AVSplit"
-            },
-            {
-                "children": [
-                    {
-                        "data": "2:11756",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    },
-                    {
-                        "data": "5:11756",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    }
-                ],
-                "type": "AVSplit"
-            },
-            {
-                "children": [
-                    {
-                        "data": "4:13976",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    },
-                    {
-                        "data": "3:13976",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    }
-                ],
-                "type": "AVSplit"
-            },
-            {
-                "children": [
-                    {
-                        "data": "3:11454",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    },
-                    {
-                        "data": "4:11454",
-                        "leaf": "clip",
-                        "type": "Leaf"
-                    }
-                ],
-                "type": "AVSplit"
-            }
-        ],
-        "type": "Normal"
-    },
     {
         "children": [
             {
@@ -865,6 +790,131 @@
             }
         ],
         "type": "Normal"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "data": "4:11339",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    },
+                    {
+                        "data": "3:11339",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    }
+                ],
+                "type": "AVSplit"
+            },
+            {
+                "children": [
+                    {
+                        "data": "3:13861",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    },
+                    {
+                        "data": "4:13861",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    }
+                ],
+                "type": "AVSplit"
+            },
+            {
+                "children": [
+                    {
+                        "data": "5:11641",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    },
+                    {
+                        "data": "2:11641",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    }
+                ],
+                "type": "AVSplit"
+            },
+            {
+                "children": [
+                    {
+                        "data": "4:13227",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    },
+                    {
+                        "data": "3:13227",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    }
+                ],
+                "type": "AVSplit"
+            },
+            {
+                "children": [
+                    {
+                        "data": "3:12429",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    },
+                    {
+                        "data": "4:12429",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    }
+                ],
+                "type": "AVSplit"
+            },
+            {
+                "children": [
+                    {
+                        "data": "4:12112",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    },
+                    {
+                        "data": "3:12112",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    }
+                ],
+                "type": "AVSplit"
+            },
+            {
+                "children": [
+                    {
+                        "data": "5:13389",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    },
+                    {
+                        "data": "2:13389",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    }
+                ],
+                "type": "AVSplit"
+            },
+            {
+                "children": [
+                    {
+                        "data": "5:12627",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    },
+                    {
+                        "data": "2:12627",
+                        "leaf": "clip",
+                        "type": "Leaf"
+                    }
+                ],
+                "type": "AVSplit"
+            }
+        ],
+        "type": "Normal"
     }
 ]
 </property>
@@ -894,8 +944,10 @@
   <entry producer="producer22" in="00:00:00.000" out="00:00:04.983"/>
   <entry producer="producer23" in="00:00:00.000" out="00:08:20.450"/>
   <entry producer="producer24" in="00:00:00.000" out="00:08:24.133"/>
+  <entry producer="producer25" in="00:00:00.000" out="00:01:22.183"/>
+  <entry producer="producer26" in="00:00:00.000" out="00:01:22.200"/>
  </playlist>
- <producer id="black_track" in="00:00:00.000" out="00:12:34.783">
+ <producer id="black_track" in="00:00:00.000" out="00:12:23.633">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
   <property name="resource">black</property>
@@ -904,7 +956,7 @@
   <property name="mlt_image_format">rgb24a</property>
   <property name="set.test_audio">0</property>
  </producer>
- <producer id="producer25" in="00:00:00.000" out="00:08:24.133">
+ <producer id="producer27" in="00:00:00.000" out="00:08:24.133">
   <property name="length">30249</property>
   <property name="eof">pause</property>
   <property name="resource">audio-recordings/117364927.flac/2-BWBellairs_0322.flac</property>
@@ -932,64 +984,99 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
+ <producer id="producer28" in="00:00:00.000" out="00:01:22.183">
+  <property name="length">4932</property>
+  <property name="eof">pause</property>
+  <property name="resource">audio-recordings/demo/986416484.flac/1-BWBellairs_0322.flac</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">flac</property>
+  <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">30</property>
+  <property name="kdenlive:file_size">1130456</property>
+  <property name="kdenlive:file_hash">d317b47c57c8f090c9462c4a90873b27</property>
+  <property name="kdenlive:audio_max">4</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
  <playlist id="playlist0">
   <blank length="00:00:02.117"/>
-  <entry producer="producer25" in="00:00:06.483" out="00:00:11.100">
+  <entry producer="producer27" in="00:00:06.483" out="00:00:11.100">
    <property name="kdenlive:id">29</property>
   </entry>
   <blank length="00:00:19.300"/>
-  <entry producer="producer25" in="00:00:59.967" out="00:01:07.067">
+  <entry producer="producer27" in="00:00:59.967" out="00:01:07.067">
    <property name="kdenlive:id">29</property>
   </entry>
   <blank length="00:00:05.700"/>
-  <entry producer="producer25" in="00:01:34.000" out="00:01:40.333">
+  <entry producer="producer27" in="00:01:34.000" out="00:01:40.333">
    <property name="kdenlive:id">29</property>
   </entry>
   <blank length="00:00:01.067"/>
-  <entry producer="producer25" in="00:01:41.417" out="00:01:46.550">
+  <entry producer="producer27" in="00:01:41.417" out="00:01:46.550">
    <property name="kdenlive:id">29</property>
   </entry>
   <blank length="00:00:00.483"/>
-  <entry producer="producer25" in="00:01:47.050" out="00:01:51.667">
+  <entry producer="producer27" in="00:01:47.050" out="00:01:51.667">
    <property name="kdenlive:id">29</property>
   </entry>
   <blank length="00:00:00.500"/>
-  <entry producer="producer25" in="00:01:52.183" out="00:01:57.067">
+  <entry producer="producer27" in="00:01:52.183" out="00:01:57.067">
    <property name="kdenlive:id">29</property>
   </entry>
   <blank length="00:00:00.550"/>
-  <entry producer="producer25" in="00:02:04.383" out="00:02:12.017">
+  <entry producer="producer27" in="00:02:04.383" out="00:02:12.017">
    <property name="kdenlive:id">29</property>
   </entry>
   <blank length="00:00:11.717"/>
-  <entry producer="producer25" in="00:02:46.517" out="00:02:51.633">
+  <entry producer="producer27" in="00:02:46.517" out="00:02:51.633">
    <property name="kdenlive:id">29</property>
   </entry>
-  <entry producer="producer25" in="00:03:03.750" out="00:03:17.067">
+  <entry producer="producer27" in="00:03:03.750" out="00:03:17.067">
    <property name="kdenlive:id">29</property>
   </entry>
   <blank length="00:00:00.700"/>
-  <entry producer="producer25" in="00:03:17.783" out="00:03:20.250">
+  <entry producer="producer27" in="00:03:17.783" out="00:03:20.250">
    <property name="kdenlive:id">29</property>
   </entry>
   <blank length="00:00:00.400"/>
-  <entry producer="producer25" in="00:03:23.233" out="00:03:24.883">
+  <entry producer="producer27" in="00:03:23.233" out="00:03:24.883">
    <property name="kdenlive:id">29</property>
   </entry>
   <blank length="00:00:09.450"/>
-  <entry producer="producer25" in="00:03:42.300" out="00:03:52.017">
+  <entry producer="producer27" in="00:03:42.300" out="00:03:52.017">
    <property name="kdenlive:id">29</property>
   </entry>
-  <entry producer="producer25" in="00:03:54.383" out="00:04:00.633">
+  <entry producer="producer27" in="00:03:54.383" out="00:04:00.633">
    <property name="kdenlive:id">29</property>
   </entry>
   <blank length="00:00:00.450"/>
-  <entry producer="producer25" in="00:06:02.267" out="00:06:26.217">
+  <entry producer="producer27" in="00:06:02.267" out="00:06:26.217">
    <property name="kdenlive:id">29</property>
+  </entry>
+  <blank length="00:00:31.367"/>
+  <entry producer="producer28" in="00:00:04.250" out="00:00:43.017">
+   <property name="kdenlive:id">30</property>
+  </entry>
+  <entry producer="producer28" in="00:00:43.933" out="00:01:01.950">
+   <property name="kdenlive:id">30</property>
   </entry>
  </playlist>
  <playlist id="playlist1"/>
- <tractor id="tractor0" in="00:00:00.000" out="00:02:35.433">
+ <tractor id="tractor0" in="00:00:00.000" out="00:04:03.617">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">67</property>
   <property name="kdenlive:timeline_active">1</property>
@@ -1016,7 +1103,7 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer26" in="00:00:00.000" out="00:08:20.450">
+ <producer id="producer29" in="00:00:00.000" out="00:08:20.450">
   <property name="length">30028</property>
   <property name="eof">pause</property>
   <property name="resource">audio-recordings/117364927.flac/1-harry48225_0075.flac</property>
@@ -1044,50 +1131,84 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
+ <producer id="producer30" in="00:00:00.000" out="00:01:22.200">
+  <property name="length">4933</property>
+  <property name="eof">pause</property>
+  <property name="resource">audio-recordings/demo/986416484.flac/2-harry48225_0075.flac</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">flac</property>
+  <property name="meta.media.0.codec.long_name">FLAC (Free Lossless Audio Codec)</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">31</property>
+  <property name="kdenlive:file_size">609307</property>
+  <property name="kdenlive:file_hash">ba0e2c09b3eb78b59fad018e89017b39</property>
+  <property name="kdenlive:audio_max">1</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
  <playlist id="playlist2">
   <blank length="00:00:00.550"/>
-  <entry producer="producer26" in="00:00:04.917" out="00:00:05.767">
+  <entry producer="producer29" in="00:00:04.917" out="00:00:05.767">
    <property name="kdenlive:id">28</property>
   </entry>
   <blank length="00:00:05.333"/>
-  <entry producer="producer26" in="00:00:12.517" out="00:00:31.800">
+  <entry producer="producer29" in="00:00:12.517" out="00:00:31.800">
    <property name="kdenlive:id">28</property>
   </entry>
   <blank length="00:00:07.117"/>
-  <entry producer="producer26" in="00:00:42.417" out="00:00:48.100">
+  <entry producer="producer29" in="00:00:42.417" out="00:00:48.100">
    <property name="kdenlive:id">28</property>
   </entry>
   <blank length="00:00:31.283"/>
-  <entry producer="producer26" in="00:02:13.067" out="00:02:24.267">
+  <entry producer="producer29" in="00:02:13.067" out="00:02:24.267">
    <property name="kdenlive:id">28</property>
   </entry>
   <blank length="00:00:25.100"/>
-  <entry producer="producer26" in="00:03:26.433" out="00:03:32.883">
+  <entry producer="producer29" in="00:03:26.433" out="00:03:32.883">
    <property name="kdenlive:id">28</property>
   </entry>
   <blank length="00:00:42.917"/>
-  <entry producer="producer26" in="00:07:16.667" out="00:07:21.967">
+  <entry producer="producer29" in="00:07:16.667" out="00:07:21.967">
    <property name="kdenlive:id">28</property>
   </entry>
   <blank length="00:00:00.883"/>
-  <entry producer="producer26" in="00:07:23.333" out="00:07:28.933">
+  <entry producer="producer29" in="00:07:23.333" out="00:07:28.933">
    <property name="kdenlive:id">28</property>
   </entry>
   <blank length="00:00:00.333"/>
-  <entry producer="producer26" in="00:07:29.750" out="00:07:32.183">
+  <entry producer="producer29" in="00:07:29.750" out="00:07:32.183">
    <property name="kdenlive:id">28</property>
   </entry>
   <blank length="00:00:00.517"/>
-  <entry producer="producer26" in="00:07:33.867" out="00:07:44.083">
+  <entry producer="producer29" in="00:07:33.867" out="00:07:44.083">
    <property name="kdenlive:id">28</property>
   </entry>
   <blank length="00:00:00.317"/>
-  <entry producer="producer26" in="00:07:52.717" out="00:07:57.983">
+  <entry producer="producer29" in="00:07:52.717" out="00:07:57.983">
    <property name="kdenlive:id">28</property>
+  </entry>
+  <entry producer="producer30" in="00:00:04.250" out="00:00:43.033">
+   <property name="kdenlive:id">31</property>
+  </entry>
+  <entry producer="producer30" in="00:00:43.950" out="00:01:01.967">
+   <property name="kdenlive:id">31</property>
   </entry>
  </playlist>
  <playlist id="playlist3"/>
- <tractor id="tractor1" in="00:00:00.000" out="00:03:06.783">
+ <tractor id="tractor1" in="00:00:00.000" out="00:04:03.617">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">67</property>
   <property name="kdenlive:timeline_active">1</property>
@@ -1114,7 +1235,7 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer27" in="00:00:00.000" out="00:00:09.983">
+ <producer id="producer31" in="00:00:00.000" out="00:00:09.983">
   <property name="length">600</property>
   <property name="eof">pause</property>
   <property name="resource">2.000000:/home/harry/Documents/deep-sea-dev/octocatch/videos/cabinet_assembly.wmv</property>
@@ -1167,7 +1288,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.color_range">mpeg</property>
  </producer>
- <producer id="producer28" in="00:00:00.000" out="00:00:09.983">
+ <producer id="producer32" in="00:00:00.000" out="00:00:09.983">
   <property name="length">600</property>
   <property name="eof">pause</property>
   <property name="resource">2.000000:/home/harry/Documents/deep-sea-dev/octocatch/videos/cabinet_assembly.wmv</property>
@@ -1220,7 +1341,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.color_range">mpeg</property>
  </producer>
- <producer id="producer29" in="00:00:00.000" out="00:00:19.050">
+ <producer id="producer33" in="00:00:00.000" out="00:00:19.050">
   <property name="length">1144</property>
   <property name="eof">pause</property>
   <property name="resource">/home/harry/Documents/deep-sea-dev/octocatch/videos/score_display.mp4</property>
@@ -1280,7 +1401,7 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer30" in="00:00:00.000" out="00:00:20.267">
+ <producer id="producer34" in="00:00:00.000" out="00:00:20.267">
   <property name="length">1217</property>
   <property name="eof">pause</property>
   <property name="resource">/home/harry/Documents/deep-sea-dev/octocatch/videos/dropper.mp4</property>
@@ -1338,7 +1459,7 @@
   <property name="set.test_audio">0</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer31" in="00:00:00.000" out="00:00:08.283">
+ <producer id="producer35" in="00:00:00.000" out="00:00:08.283">
   <property name="length">498</property>
   <property name="eof">pause</property>
   <property name="resource">/home/harry/Documents/deep-sea-dev/octocatch/videos/marble_sensor.mp4</property>
@@ -1401,22 +1522,22 @@
  <playlist id="playlist4">
   <property name="kdenlive:audio_track">1</property>
   <blank length="00:00:16.050"/>
-  <entry producer="producer27" in="00:00:00.000" out="00:00:09.983">
+  <entry producer="producer31" in="00:00:00.000" out="00:00:09.983">
    <property name="kdenlive:id">15</property>
   </entry>
-  <entry producer="producer28" in="00:00:00.000" out="00:00:09.983">
+  <entry producer="producer32" in="00:00:00.000" out="00:00:09.983">
    <property name="kdenlive:id">15</property>
   </entry>
-  <blank length="00:02:39.883"/>
-  <entry producer="producer29" in="00:00:00.000" out="00:00:07.833">
+  <blank length="00:02:37.967"/>
+  <entry producer="producer33" in="00:00:00.000" out="00:00:07.833">
    <property name="kdenlive:id">6</property>
   </entry>
   <blank length="00:00:08.583"/>
-  <entry producer="producer30" in="00:00:00.000" out="00:00:09.983">
+  <entry producer="producer34" in="00:00:00.000" out="00:00:09.983">
    <property name="kdenlive:id">3</property>
   </entry>
   <blank length="00:00:02.700"/>
-  <entry producer="producer31" in="00:00:00.000" out="00:00:07.850">
+  <entry producer="producer35" in="00:00:00.000" out="00:00:07.850">
    <property name="kdenlive:id">5</property>
    <property name="kdenlive:activeeffect">0</property>
    <filter id="filter6">
@@ -1430,7 +1551,7 @@
   </entry>
  </playlist>
  <playlist id="playlist5"/>
- <tractor id="tractor2" in="00:00:00.000" out="00:03:52.917">
+ <tractor id="tractor2" in="00:00:00.000" out="00:03:51.000">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">67</property>
   <property name="kdenlive:timeline_active">1</property>
@@ -1459,7 +1580,7 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer32" in="00:00:00.000" out="00:00:55.317">
+ <producer id="producer36" in="00:00:00.000" out="00:00:55.317">
   <property name="length">3320</property>
   <property name="eof">pause</property>
   <property name="resource">/home/harry/Documents/deep-sea-dev/octocatch/videos/full.mp4</property>
@@ -1521,8 +1642,8 @@
  </producer>
  <playlist id="playlist6">
   <property name="kdenlive:audio_track">1</property>
-  <blank length="00:03:10.900"/>
-  <entry producer="producer32" in="00:00:00.000" out="00:00:05.017">
+  <blank length="00:03:08.983"/>
+  <entry producer="producer36" in="00:00:00.000" out="00:00:05.017">
    <property name="kdenlive:id">4</property>
    <property name="kdenlive:activeeffect">0</property>
    <filter id="filter10">
@@ -1535,7 +1656,7 @@
    </filter>
   </entry>
   <blank length="00:00:07.850"/>
-  <entry producer="producer32" in="00:00:12.400" out="00:00:17.667">
+  <entry producer="producer36" in="00:00:12.400" out="00:00:17.667">
    <property name="kdenlive:id">4</property>
    <filter id="filter11">
     <property name="window">75</property>
@@ -1545,7 +1666,7 @@
     <property name="kdenlive_id">volume</property>
    </filter>
   </entry>
-  <entry producer="producer32" in="00:00:17.683" out="00:00:20.967">
+  <entry producer="producer36" in="00:00:17.683" out="00:00:20.967">
    <property name="kdenlive:id">4</property>
    <filter id="filter12">
     <property name="window">75</property>
@@ -1556,7 +1677,7 @@
    </filter>
   </entry>
   <blank length="00:00:10.000"/>
-  <entry producer="producer32" in="00:00:20.983" out="00:00:23.667">
+  <entry producer="producer36" in="00:00:20.983" out="00:00:23.667">
    <property name="kdenlive:id">4</property>
    <filter id="filter13">
     <property name="window">75</property>
@@ -1567,7 +1688,7 @@
    </filter>
   </entry>
   <blank length="00:00:07.867"/>
-  <entry producer="producer32" in="00:00:33.483" out="00:00:55.317">
+  <entry producer="producer36" in="00:00:33.483" out="00:00:46.083">
    <property name="kdenlive:id">4</property>
    <filter id="filter14">
     <property name="window">75</property>
@@ -1579,7 +1700,7 @@
   </entry>
  </playlist>
  <playlist id="playlist7"/>
- <tractor id="tractor3" in="00:00:00.000" out="00:04:14.767">
+ <tractor id="tractor3" in="00:00:00.000" out="00:04:03.617">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">67</property>
   <property name="kdenlive:timeline_active">1</property>
@@ -1609,7 +1730,7 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer33" in="00:00:00.000" out="00:00:20.267">
+ <producer id="producer37" in="00:00:00.000" out="00:00:20.267">
   <property name="length">1217</property>
   <property name="eof">pause</property>
   <property name="resource">/home/harry/Documents/deep-sea-dev/octocatch/videos/dropper.mp4</property>
@@ -1667,7 +1788,7 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer34" in="00:00:00.000" out="00:00:08.283">
+ <producer id="producer38" in="00:00:00.000" out="00:00:08.283">
   <property name="length">498</property>
   <property name="eof">pause</property>
   <property name="resource">/home/harry/Documents/deep-sea-dev/octocatch/videos/marble_sensor.mp4</property>
@@ -1727,7 +1848,7 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer35" in="00:00:00.000" out="00:00:55.317">
+ <producer id="producer39" in="00:00:00.000" out="00:00:55.317">
   <property name="length">3320</property>
   <property name="eof">pause</property>
   <property name="resource">/home/harry/Documents/deep-sea-dev/octocatch/videos/full.mp4</property>
@@ -1813,7 +1934,7 @@
   <entry producer="producer18" in="00:00:00.000" out="00:00:10.833">
    <property name="kdenlive:id">22</property>
   </entry>
-  <entry producer="producer33" in="00:00:00.000" out="00:00:07.050">
+  <entry producer="producer37" in="00:00:00.000" out="00:00:07.050">
    <property name="kdenlive:id">3</property>
   </entry>
   <entry producer="producer22" in="00:00:00.000" out="00:00:09.433">
@@ -1825,13 +1946,13 @@
   <entry producer="producer16" in="00:00:00.000" out="00:00:08.967">
    <property name="kdenlive:id">20</property>
   </entry>
-  <entry producer="producer34" in="00:00:00.000" out="00:00:08.283">
+  <entry producer="producer38" in="00:00:00.000" out="00:00:08.283">
    <property name="kdenlive:id">5</property>
   </entry>
-  <entry producer="producer34" in="00:00:00.000" out="00:00:08.283">
+  <entry producer="producer38" in="00:00:00.000" out="00:00:08.283">
    <property name="kdenlive:id">5</property>
   </entry>
-  <entry producer="producer34" in="00:00:00.000" out="00:00:07.350">
+  <entry producer="producer38" in="00:00:00.000" out="00:00:07.350">
    <property name="kdenlive:id">5</property>
   </entry>
   <entry producer="producer11" in="00:00:00.000" out="00:00:04.983">
@@ -1855,28 +1976,30 @@
   <entry producer="producer8" in="00:00:00.000" out="00:00:03.967">
    <property name="kdenlive:id">11</property>
   </entry>
-  <blank length="00:00:04.100"/>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:05.017">
+  <entry producer="producer14" in="00:00:00.000" out="00:00:02.167">
+   <property name="kdenlive:id">17</property>
+  </entry>
+  <entry producer="producer39" in="00:00:00.000" out="00:00:05.017">
    <property name="kdenlive:id">4</property>
   </entry>
   <blank length="00:00:07.850"/>
-  <entry producer="producer35" in="00:00:12.400" out="00:00:17.667">
+  <entry producer="producer39" in="00:00:12.400" out="00:00:17.667">
    <property name="kdenlive:id">4</property>
   </entry>
-  <entry producer="producer35" in="00:00:17.683" out="00:00:20.967">
+  <entry producer="producer39" in="00:00:17.683" out="00:00:20.967">
    <property name="kdenlive:id">4</property>
   </entry>
   <blank length="00:00:10.000"/>
-  <entry producer="producer35" in="00:00:20.983" out="00:00:23.667">
+  <entry producer="producer39" in="00:00:20.983" out="00:00:23.667">
    <property name="kdenlive:id">4</property>
   </entry>
   <blank length="00:00:07.867"/>
-  <entry producer="producer35" in="00:00:33.483" out="00:00:55.317">
+  <entry producer="producer39" in="00:00:33.483" out="00:00:46.083">
    <property name="kdenlive:id">4</property>
   </entry>
  </playlist>
  <playlist id="playlist9"/>
- <tractor id="tractor4" in="00:00:00.000" out="00:04:14.767">
+ <tractor id="tractor4" in="00:00:00.000" out="00:04:03.617">
   <property name="kdenlive:trackheight">67</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
@@ -1886,7 +2009,7 @@
   <track hide="audio" producer="playlist8"/>
   <track producer="playlist9"/>
  </tractor>
- <producer id="producer36" in="00:00:00.000" out="00:00:09.983">
+ <producer id="producer40" in="00:00:00.000" out="00:00:09.983">
   <property name="length">600</property>
   <property name="eof">pause</property>
   <property name="resource">2.000000:/home/harry/Documents/deep-sea-dev/octocatch/videos/cabinet_assembly.wmv</property>
@@ -1941,7 +2064,7 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer37" in="00:00:00.000" out="00:00:09.983">
+ <producer id="producer41" in="00:00:00.000" out="00:00:09.983">
   <property name="length">600</property>
   <property name="eof">pause</property>
   <property name="resource">2.000000:/home/harry/Documents/deep-sea-dev/octocatch/videos/cabinet_assembly.wmv</property>
@@ -1996,7 +2119,7 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer38" in="00:00:00.000" out="00:00:19.050">
+ <producer id="producer42" in="00:00:00.000" out="00:00:19.050">
   <property name="length">1144</property>
   <property name="eof">pause</property>
   <property name="resource">/home/harry/Documents/deep-sea-dev/octocatch/videos/score_display.mp4</property>
@@ -2056,7 +2179,7 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer39" in="00:00:00.000" out="00:00:20.267">
+ <producer id="producer43" in="00:00:00.000" out="00:00:20.267">
   <property name="length">1217</property>
   <property name="eof">pause</property>
   <property name="resource">/home/harry/Documents/deep-sea-dev/octocatch/videos/dropper.mp4</property>
@@ -2114,7 +2237,7 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer40" in="00:00:00.000" out="00:00:08.283">
+ <producer id="producer44" in="00:00:00.000" out="00:00:08.283">
   <property name="length">498</property>
   <property name="eof">pause</property>
   <property name="resource">/home/harry/Documents/deep-sea-dev/octocatch/videos/marble_sensor.mp4</property>
@@ -2176,7 +2299,7 @@
  </producer>
  <playlist id="playlist10">
   <blank length="00:00:16.050"/>
-  <entry producer="producer36" in="00:00:00.000" out="00:00:09.983">
+  <entry producer="producer40" in="00:00:00.000" out="00:00:09.983">
    <property name="kdenlive:id">15</property>
    <property name="kdenlive:activeeffect">0</property>
    <filter id="filter18">
@@ -2913,7 +3036,7 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer37" in="00:00:00.000" out="00:00:09.983">
+  <entry producer="producer41" in="00:00:00.000" out="00:00:09.983">
    <property name="kdenlive:id">15</property>
    <property name="kdenlive:activeeffect">0</property>
    <filter id="filter19">
@@ -3651,24 +3774,24 @@
    </filter>
   </entry>
   <blank length="00:00:54.317"/>
-  <entry producer="producer38" in="00:00:00.000" out="00:00:06.550">
+  <entry producer="producer42" in="00:00:00.000" out="00:00:06.550">
    <property name="kdenlive:id">6</property>
   </entry>
-  <blank length="00:01:39.000"/>
-  <entry producer="producer38" in="00:00:00.000" out="00:00:07.833">
+  <blank length="00:01:37.083"/>
+  <entry producer="producer42" in="00:00:00.000" out="00:00:07.833">
    <property name="kdenlive:id">6</property>
   </entry>
   <blank length="00:00:08.583"/>
-  <entry producer="producer39" in="00:00:00.000" out="00:00:09.983">
+  <entry producer="producer43" in="00:00:00.000" out="00:00:09.983">
    <property name="kdenlive:id">3</property>
   </entry>
   <blank length="00:00:02.700"/>
-  <entry producer="producer40" in="00:00:00.000" out="00:00:07.850">
+  <entry producer="producer44" in="00:00:00.000" out="00:00:07.850">
    <property name="kdenlive:id">5</property>
   </entry>
  </playlist>
  <playlist id="playlist11"/>
- <tractor id="tractor5" in="00:00:00.000" out="00:03:52.917">
+ <tractor id="tractor5" in="00:00:00.000" out="00:03:51.000">
   <property name="kdenlive:trackheight">67</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
@@ -3677,7 +3800,7 @@
   <track hide="audio" producer="playlist10"/>
   <track producer="playlist11"/>
  </tractor>
- <tractor id="tractor6" global_feed="1" in="00:00:00.000" out="00:12:34.783">
+ <tractor id="tractor6" global_feed="1" in="00:00:00.000" out="00:12:23.633">
   <track producer="black_track"/>
   <track producer="tractor0"/>
   <track producer="tractor1"/>
